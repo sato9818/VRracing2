@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.VRracing2", "UnityVS.VRracing2.csproj", "{56BECD87-4301-86B5-E6BD-CDEA4997F33D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.VRracing2.Plugins", "UnityVS.VRracing2.Plugins.csproj", "{1F2C716D-7E8E-1AF8-676F-2ADD4876B433}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.VRracing2.Editor.Plugins", "UnityVS.VRracing2.Editor.Plugins.csproj", "{A3593C1D-290B-1A3C-CE80-6D260A44876C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.VRracing2.Editor", "UnityVS.VRracing2.Editor.csproj", "{EE9B0D2F-2630-0391-C1E0-77B0484D37A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56BECD87-4301-86B5-E6BD-CDEA4997F33D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56BECD87-4301-86B5-E6BD-CDEA4997F33D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56BECD87-4301-86B5-E6BD-CDEA4997F33D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56BECD87-4301-86B5-E6BD-CDEA4997F33D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F2C716D-7E8E-1AF8-676F-2ADD4876B433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F2C716D-7E8E-1AF8-676F-2ADD4876B433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F2C716D-7E8E-1AF8-676F-2ADD4876B433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F2C716D-7E8E-1AF8-676F-2ADD4876B433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3593C1D-290B-1A3C-CE80-6D260A44876C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3593C1D-290B-1A3C-CE80-6D260A44876C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3593C1D-290B-1A3C-CE80-6D260A44876C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3593C1D-290B-1A3C-CE80-6D260A44876C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE9B0D2F-2630-0391-C1E0-77B0484D37A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE9B0D2F-2630-0391-C1E0-77B0484D37A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE9B0D2F-2630-0391-C1E0-77B0484D37A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE9B0D2F-2630-0391-C1E0-77B0484D37A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
