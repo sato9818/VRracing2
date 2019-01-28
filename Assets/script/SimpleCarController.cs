@@ -17,7 +17,8 @@ public class SimpleCarController : MonoBehaviour
     public float maxMotorTorque;
     public float maxSteeringAngle;
     public Transform Item;
-    public Transform rightHand;
+    public Transform onItem;
+    public static float Axis;
 
     // 対応する視覚的なホイールを見つけます
     // Transform を正しく適用します
@@ -40,10 +41,10 @@ public class SimpleCarController : MonoBehaviour
 
     public void FixedUpdate()
     {
-        Transform fronttire;
 
         float motor = maxMotorTorque * Input.GetAxis("Vertical");
         float steering = maxSteeringAngle * Input.GetAxis("Horizontal");
+        //Debug.Log(steering);
 
         foreach (AxleInfo axleInfo in axleInfos)
         {
@@ -65,9 +66,14 @@ public class SimpleCarController : MonoBehaviour
 
     void OnTriggerEnter(Collider col)
     {
-        if (col.gameObject.tag == "Item")
+        if (col.gameObject.tag == "ItemBox")
         {
-            Item.position = rightHand.position;
+            Item.position = onItem.position;
+            Instantiate(Item, onItem.position, Item.transform.rotation);
+            Destroy(col.gameObject);
+        }else if(col.gameObject.tag == "Enemy")
+        {
+
         }
     }
 

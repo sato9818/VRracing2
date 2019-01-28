@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{2ABDCC6B-8DED-AF3C-4CE9-40336E637BDD}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/ViveControllerInputTest.cs">
+    <Files>
+      <File FileName="Assets/script/SimpleCarController.cs" Line="45" Column="66" />
+      <File FileName="Assets/script/createScript.cs" Line="82" Column="101" />
+      <File FileName="Assets/script/BoxDes.cs" Line="23" Column="6" />
+      <File FileName="Assets/script/Item.cs" Line="22" Column="37" />
+      <File FileName="Assets/script/ControllerGrabObject.cs" Line="92" Column="53" />
+      <File FileName="Assets/script/ViveControllerInputTest.cs" Line="33" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

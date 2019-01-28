@@ -88,6 +88,9 @@ public class ControllerGrabObject : MonoBehaviour
             {
                 GrabObject();
             }
+            if (collidingObject.tag == "handle"){
+                SimpleCarController.Axis = 1;//or -1
+            }
         }
 
         if (Controller.GetHairTriggerUp())
