@@ -4,15 +4,14 @@ using System.Collections;
 
 public class CameraController : MonoBehaviour {
 
-
+   // [SerializeField] Camera target;
 	public Transform head;
 void Update () {
     // TODO: ここで固定したい位置があれば指定しておく
     
-
+    //XRDevice.DisableAutoXRCameraTracking(head, false);
     // VR.InputTracking から hmd の位置を取得
-    Vector3 trackingPos =
-            InputTracking.GetLocalPosition(XRNode.CenterEye);
+    Vector3 trackingPos = InputTracking.GetLocalPosition(XRNode.CenterEye);
 
     // CameraController 自体の rotation が
     // zero でなければ rotation を掛ける

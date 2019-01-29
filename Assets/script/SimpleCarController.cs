@@ -19,6 +19,7 @@ public class SimpleCarController : MonoBehaviour
     public Transform Item;
     public Transform onItem;
     public static float Axis;
+    public static float Horizontal;
 
     // 対応する視覚的なホイールを見つけます
     // Transform を正しく適用します
@@ -42,8 +43,8 @@ public class SimpleCarController : MonoBehaviour
     public void FixedUpdate()
     {
 
-        float motor = maxMotorTorque * Input.GetAxis("Vertical");
-        float steering = maxSteeringAngle * Input.GetAxis("Horizontal");
+        float motor = maxMotorTorque * Axis;
+        float steering = maxSteeringAngle * Horizontal;
         //Debug.Log(steering);
 
         foreach (AxleInfo axleInfo in axleInfos)

@@ -15,8 +15,8 @@ public class PosController : MonoBehaviour
 
     void Update()
     {
-        //Unitychan.position = Camera.position - (Head.position - Unitychan.position);
-        Camera.position = Head.position;
+        Unitychan.position = Camera.position - (Head.position - Unitychan.position);
+        //Camera.position = Head.position;
 
         
 
