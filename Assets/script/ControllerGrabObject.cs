@@ -34,6 +34,13 @@ public class ControllerGrabObject : MonoBehaviour
     public void OnTriggerEnter(Collider other)
     {
         SetCollidingObject(other);
+         if (other.tag == "handle"){
+             if (Controller.GetHairTriggerDown())
+        {
+                SimpleCarController.Axis = 1;
+        }
+            }
+        
         Debug.Log("OnTriggerEnter");
 
     }
@@ -41,6 +48,13 @@ public class ControllerGrabObject : MonoBehaviour
     public void OnTriggerStay(Collider other)
     {
         SetCollidingObject(other);
+        if (other.tag == "handle")
+        {
+            if (Controller.GetHairTriggerDown())
+            {
+                SimpleCarController.Axis = 1;
+            }
+        }
         Debug.Log("OnTriggerStay");
     }
 
@@ -50,7 +64,7 @@ public class ControllerGrabObject : MonoBehaviour
         {
             return;
         }
-
+        
         collidingObject = null;
     }
 
@@ -91,13 +105,8 @@ public class ControllerGrabObject : MonoBehaviour
             if (collidingObject)
             {
                 GrabObject();
-                Debug.Log("Grab");
+                //Debug.Log("Grab");
             }
-            //if (collidingObject.tag == "handle"){
-                Debug.Log("handleGrab");
-                SimpleCarController.Axis = 1;//or -1
-            //}
-            Debug.Log(Controller.GetAxis().x);
         }
         SimpleCarController.Horizontal = Controller.GetAxis().x;
 

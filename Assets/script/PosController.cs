@@ -8,7 +8,7 @@ public class PosController : MonoBehaviour
     public Transform Camera;
     public Transform Unitychan;
     public Transform Head;
-    public Transform BodyPos;
+    
     
     
 
