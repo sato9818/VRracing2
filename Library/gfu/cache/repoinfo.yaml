@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-01-29T17:55:26.288+09:00
-  initializedAtString: 2019-01-29T17:55:26.288+09:00
+  lastUpdatedAtString: 2019-01-29T18:09:13.321+09:00
+  initializedAtString: 2019-01-29T18:09:13.321+09:00
   currentGitRemote:
     name: origin
     url: https://github.com/sato9818/VRracing2.git
