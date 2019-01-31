@@ -6,6 +6,14 @@ public class ShotScript : MonoBehaviour {
 	public Transform Item;
     public Transform onItem;
 
+	public GameObject parentObject;
+	Transform Obj;
+
+	void Start()
+	{
+		parentObject = GameObject.FindGameObjectWithTag("Button");
+	}
+
 	public void OnTriggerEnter(Collider other)
     {
 		if (other.tag == "Button")
@@ -21,9 +29,7 @@ public class ShotScript : MonoBehaviour {
 	
 	public void shot()
     {
-        Instantiate (Item, onItem.position , Item.transform.rotation);
-        Rigidbody rb;
-        rb = Item.GetComponent<Rigidbody>();
-        rb.AddForce(transform.forward * 400000);
+        Obj = (Transform)Instantiate (Item, onItem.position , Quaternion.identity);
+		Obj.transform.parent = parentObject.transform;
     }
 }

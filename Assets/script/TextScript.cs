@@ -11,6 +11,8 @@ public class TextScript : MonoBehaviour {
     private float score = 0.0f;
     private float miss = 0.0f;
     public static int ItemNum = 1;
+    public static float add = 0.0f;
+
     void Start() {
         timeText.GetComponent<TextMesh>().text = ((int)time).ToString();
         scoreText.GetComponent<TextMesh>().text = ((int)score).ToString();
@@ -23,7 +25,7 @@ public class TextScript : MonoBehaviour {
         float z;
         z = transform.position.z;
         z -= miss;
-        score = z;
+        score = z + add;
         scoreText.GetComponent<TextMesh>().text = "score:"+((int)score).ToString();
 
 		if(time<0.0f){
@@ -47,9 +49,6 @@ public class TextScript : MonoBehaviour {
             ItemNum += 1;
             Destroy(col.gameObject);
             
-        }else if(col.gameObject.tag == "Enemy")
-        {
-            miss += 1000f;
         }
     }
     void OnCollisionEnter(Collision col)

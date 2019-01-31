@@ -12,6 +12,240 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-01-29T22:26:02.399+09:00
-  initializedAtString: 2019-01-29T19:16:33.373+09:00
-  entries: []
+  lastUpdatedAtString: 2019-01-31T13:00:41.958+09:00
+  initializedAtString: 2019-01-31T12:22:32.037+09:00
+  entries:
+  - path: Assets\prefabs\Item.prefab
+    fullPath: D:\VRracing2\Assets\prefabs\Item.prefab
+    projectPath: Assets\prefabs\Item.prefab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scenes\SampleScene.unity
+    fullPath: D:\VRracing2\Assets\Scenes\SampleScene.unity
+    projectPath: Assets\Scenes\SampleScene.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\script\Item.cs
+    fullPath: D:\VRracing2\Assets\script\Item.cs
+    projectPath: Assets\script\Item.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\script\ShotScript.cs
+    fullPath: D:\VRracing2\Assets\script\ShotScript.cs
+    projectPath: Assets\script\ShotScript.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\script\TextScript.cs
+    fullPath: D:\VRracing2\Assets\script\TextScript.cs
+    projectPath: Assets\script\TextScript.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\assetDatabase3
+    fullPath: D:\VRracing2\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\CrashedAssetImports.txt
+    fullPath: D:\VRracing2\Library\CrashedAssetImports.txt
+    projectPath: Library\CrashedAssetImports.txt
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\CurrentLayout.dwlt
+    fullPath: D:\VRracing2\Library\CurrentLayout.dwlt
+    projectPath: Library\CurrentLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\EditorInstance.json
+    fullPath: D:\VRracing2\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\expandedItems
+    fullPath: D:\VRracing2\Library\expandedItems
+    projectPath: Library\expandedItems
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\branches.yaml
+    fullPath: D:\VRracing2\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitlocks.yaml
+    fullPath: D:\VRracing2\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitlog.yaml
+    fullPath: D:\VRracing2\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitstatusentries.yaml
+    fullPath: D:\VRracing2\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: D:\VRracing2\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: D:\VRracing2\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\17\1728b97a8728c4b75b1d2011889350fc
+    fullPath: D:\VRracing2\Library\metadata\17\1728b97a8728c4b75b1d2011889350fc
+    projectPath: Library\metadata\17\1728b97a8728c4b75b1d2011889350fc
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\2c\2c03ecb382316bb4c8c2e0540e01e524
+    fullPath: D:\VRracing2\Library\metadata\2c\2c03ecb382316bb4c8c2e0540e01e524
+    projectPath: Library\metadata\2c\2c03ecb382316bb4c8c2e0540e01e524
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\42\42f2c85c4ae7b454faec17e7bc35dc44.info
+    fullPath: D:\VRracing2\Library\metadata\42\42f2c85c4ae7b454faec17e7bc35dc44.info
+    projectPath: Library\metadata\42\42f2c85c4ae7b454faec17e7bc35dc44.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\49\49eba0288e4e53545886cfaf8bb32ae6
+    fullPath: D:\VRracing2\Library\metadata\49\49eba0288e4e53545886cfaf8bb32ae6
+    projectPath: Library\metadata\49\49eba0288e4e53545886cfaf8bb32ae6
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: D:\VRracing2\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    fullPath: D:\VRracing2\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: D:\VRracing2\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Temp\__Backupscenes\0.backup
+    fullPath: D:\VRracing2\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\ProcessJobs\9a511b8a8925a95de3dbda339dcbdcf5.bakert
+    fullPath: D:\VRracing2\Temp\ProcessJobs\9a511b8a8925a95de3dbda339dcbdcf5.bakert
+    projectPath: Temp\ProcessJobs\9a511b8a8925a95de3dbda339dcbdcf5.bakert
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityLockfile
+    fullPath: D:\VRracing2\Temp\UnityLockfile
+    projectPath: Temp\UnityLockfile
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-15583f9a0a061a64ca104ee66717de07
+    fullPath: D:\VRracing2\Temp\UnityTempFile-15583f9a0a061a64ca104ee66717de07
+    projectPath: Temp\UnityTempFile-15583f9a0a061a64ca104ee66717de07
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-2adb5fa6f45d2bb46b4a6f951c4c4f78
+    fullPath: D:\VRracing2\Temp\UnityTempFile-2adb5fa6f45d2bb46b4a6f951c4c4f78
+    projectPath: Temp\UnityTempFile-2adb5fa6f45d2bb46b4a6f951c4c4f78
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-3b057a1d98ec0444a86cd71516a65115
+    fullPath: D:\VRracing2\Temp\UnityTempFile-3b057a1d98ec0444a86cd71516a65115
+    projectPath: Temp\UnityTempFile-3b057a1d98ec0444a86cd71516a65115
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-3d164dcf42ae38f429f5b25f4d3e9795
+    fullPath: D:\VRracing2\Temp\UnityTempFile-3d164dcf42ae38f429f5b25f4d3e9795
+    projectPath: Temp\UnityTempFile-3d164dcf42ae38f429f5b25f4d3e9795
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-487f4504c1bef354d846f31f4415a394
+    fullPath: D:\VRracing2\Temp\UnityTempFile-487f4504c1bef354d846f31f4415a394
+    projectPath: Temp\UnityTempFile-487f4504c1bef354d846f31f4415a394
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-72ae44bcc68722246b7bb1ca9974474c
+    fullPath: D:\VRracing2\Temp\UnityTempFile-72ae44bcc68722246b7bb1ca9974474c
+    projectPath: Temp\UnityTempFile-72ae44bcc68722246b7bb1ca9974474c
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-7a2646b672c7df54691397966d737d0b
+    fullPath: D:\VRracing2\Temp\UnityTempFile-7a2646b672c7df54691397966d737d0b
+    projectPath: Temp\UnityTempFile-7a2646b672c7df54691397966d737d0b
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-7e0eef5ca4250444596f481cc3b705b1
+    fullPath: D:\VRracing2\Temp\UnityTempFile-7e0eef5ca4250444596f481cc3b705b1
+    projectPath: Temp\UnityTempFile-7e0eef5ca4250444596f481cc3b705b1
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-9d99b326a13a5b54f8975f57fb7fae9a
+    fullPath: D:\VRracing2\Temp\UnityTempFile-9d99b326a13a5b54f8975f57fb7fae9a
+    projectPath: Temp\UnityTempFile-9d99b326a13a5b54f8975f57fb7fae9a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-ac568e92017fe684d900bfe0a3d6b098
+    fullPath: D:\VRracing2\Temp\UnityTempFile-ac568e92017fe684d900bfe0a3d6b098
+    projectPath: Temp\UnityTempFile-ac568e92017fe684d900bfe0a3d6b098
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-db3de0ba9eb5ea14e9dd39e25b48e7e1
+    fullPath: D:\VRracing2\Temp\UnityTempFile-db3de0ba9eb5ea14e9dd39e25b48e7e1
+    projectPath: Temp\UnityTempFile-db3de0ba9eb5ea14e9dd39e25b48e7e1
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-f0a8b2cabdad99548b6db9a735c21f73
+    fullPath: D:\VRracing2\Temp\UnityTempFile-f0a8b2cabdad99548b6db9a735c21f73
+    projectPath: Temp\UnityTempFile-f0a8b2cabdad99548b6db9a735c21f73
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-f4e230b29ddc2b14780d69a96b9a28cb
+    fullPath: D:\VRracing2\Temp\UnityTempFile-f4e230b29ddc2b14780d69a96b9a28cb
+    projectPath: Temp\UnityTempFile-f4e230b29ddc2b14780d69a96b9a28cb
+    originalPath: 
+    status: 1
+    staged: 0

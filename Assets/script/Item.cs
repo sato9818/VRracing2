@@ -14,12 +14,13 @@ public class Item : MonoBehaviour {
 		
 	}
 
-    void OnTriggerEnter(Collider col)
+    void OnCollisionEnter(Collision col)
     {
         if (col.gameObject.tag == "Enemy")
         {
             Destroy(this);
             Destroy(col.gameObject);
+            TextScript.add += 1000f;
         }
     }
 }
